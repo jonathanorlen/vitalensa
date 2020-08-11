@@ -1,0 +1,134 @@
+body {
+/*	margin: 70px 0;
+	padding: 0;
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 15px;
+	color: #454545;
+	background: #fff url(../images/bg.png);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.02);
+	-webkit-font-smoothing: antialiased;*/
+	overflow-x: hidden;
+}
+a, a:visited {
+	color: #3fabff;
+	text-decoration: none;
+}
+a:hover {
+	color: #008af5;
+}
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+p, .control-group {
+	margin: 0 0 20px 0;
+}
+.demo {
+	border-bottom: 1px solid #e8e8e8;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.demo:last-child {
+	border-bottom: 0 none;
+}
+.demo select, .demo input, .demo .selectize-control {
+	width: 100%;
+}
+.demo > *:first-child {
+	margin-top: 0;
+}
+.demo > *:last-child {
+	margin-bottom: 0;
+}
+.demo .value {
+	margin: 0 0 10px 0;
+	font-size: 12px;
+}
+.demo .value span {
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}font-weight: bold;
+}
+#wrapper {
+	margin: 0;
+}
+#wrapper > * {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+pre {
+	background: #f8f8f8;
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+input[type=button] {
+	margin: 0 10px 0 0;
+	padding: 6px 10px;
+	color: #606060;
+	background: #e0e0e0;
+	border: 0 none;
+	width: auto;
+	display: inline-block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-font-smoothing: antialiased;
+}
+.buttons {
+	margin: 0 0 25px 0;
+}
+input[type=button]:hover {
+	background: #dadada;
+}
+
+@media only screen and (max-width : 320px) {
+	body {
+		margin: 20px 0;
+	}
+	#wrapper {
+		margin: 0;
+	}
+	#wrapper > * {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.demo {
+		padding: 20px;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:white !important;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:15px;
+}
+
+.container-square{
+	background-size:cover;
+	background-position:center;
+   position: relative;
+   width: 100%;
+   padding-top: 100%; /* 1:1 Aspect Ratio */
+}
